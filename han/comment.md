@@ -31,3 +31,4 @@ Money money = Money.FromAmount(10000);
 // upper is better than below
 Money money = new Money(10000);
 ```
+근데 이거 Builder 패턴 쓰면 더 좋지 않나?
