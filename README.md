@@ -22,7 +22,9 @@
 - `present: {title, chapterName, ...}`: 발표자료 업로드
 - `comment: {title, chatperName, ...}`: 정리, 공유할 내용 등 스터디를 위한 기록물 
 
-# 😀 스터디 참여자
+<br>
+
+## 😀 스터디 참여자
 
 <table>
 
@@ -56,9 +58,20 @@
   newbieJanghan
   </a>
   </td>
+  
+  <td align=center>
+  <a href="https://github.com/ghlnh">
+  <img src="https://avatars.githubusercontent.com/u/110441894?v=4" width="100px"  />
+  <br/>
+  Back-end 🖥
+  <br/>
+  ghlnh
+  </a>
+  </td>
 </tr>
 
   
 </table>
 
 </br>
+
