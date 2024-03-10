@@ -29,7 +29,7 @@ classDiagram
         String content
     }
     class GoogleService {
-        gmailContentToBillingHistory(GoogleGmailContentDto) BillingInfo
+        gmailContentToBillingInfo(GoogleGmailContentDto) BillingInfo
     }
     class BillingInfo {
         String gmailContentId
