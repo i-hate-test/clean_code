@@ -64,7 +64,7 @@ public class Sensors {
 
 지금 알지 못하는 코드 (ex. 다른 팀에서 아직 구현 안됨)를 구현할 때 자체적으로 인터페이스를 정의
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/5fa0de1d-95c1-4faf-abf5-52150a9e293f/f18e973b-0b1d-495b-969a-79c569988db5/Untitled.png)
+![adaptor](https://github.com/i-hate-test/clean_code/assets/110441894/4dcdcf1a-a23e-4a80-b2d3-cb58f4ec8968)
 
 *ADAPTER 패턴 : 한 클래스의 인터페이스를 클라이언트에서 사용하고자 하는 다른 인터페이스로 변환한다. 어댑터를 이용하면 인터페이스 호환성 문제 때문에 같이 쓸 수 없는 클래스들을 연결해서 쓸 수 있다.*
 
