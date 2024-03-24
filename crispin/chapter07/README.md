@@ -78,12 +78,12 @@ public class ExceptionTest {
 
 ```java
 public List<RecordedGrip> retrieveSection(String sectionName) {
-	try {
-		FileInputStream stream = new FileInputStream(sectionName);
-	} catch (Exception e) {
-		throw new StorageException("retrieval error", e);
-	}
-	return new ArrayList<RecordedGrip>();
+    try {
+        FileInputStream stream = new FileInputStream(sectionName);
+    } catch (Exception e) {
+        throw new StorageException("retrieval error", e);
+    }
+    return new ArrayList<RecordedGrip>();
 }
 ```
 - 예외 상황 테스트 통과를 위한 코드 작성
@@ -92,11 +92,11 @@ public List<RecordedGrip> retrieveSection(String sectionName) {
 ```java
 public List<RecorededGrip> retrieveSection(String sectionName) {
     try {
-		FileInputStream stream = new FileInputStream(sectionName);
-	} catch (FileNotFoundException e) {
-		throw new StorageException("retrieval error", e);
-	}
-	return new ArrayList<RecordedGrip>();
+        FileInputStream stream = new FileInputStream(sectionName);
+    } catch (FileNotFoundException e) {
+        throw new StorageException("retrieval error", e);
+    }
+    return new ArrayList<RecordedGrip>();
 }
 ```
 - 예외 처리를 할때는 `Exception` 으로 넓은 범위의 예외를 처리하는것 보다. 위 코드와 같이 좁은 범위의 예외를 처리할수 있도록 코드를 작성하는것이 좋다.
